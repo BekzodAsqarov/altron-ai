@@ -165,3 +165,6 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 # Production uchun
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+
+CSRF_TRUSTED_ORIGINS = ['https://*.railway.app']
